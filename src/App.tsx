@@ -1,5 +1,9 @@
-import {NumberCard} from "./components/NumberCard";
-import {TextCard} from "./components/TextCard";
+import { ActionButton } from "@/components/ActionButton";
+import { NumberCard } from "@/components/NumberCard";
+import { StatusBadge } from "@/components/StatusBadge";
+import { TextCard } from "@/components/TextCard";
+import TodoList from "@/components/TodoList";
+import UserCard from "@/components/UserCard";
 
 function App() {
   const handleClick = () => {
@@ -16,8 +20,11 @@ function App() {
 
   return (
     <>
-      if(erger){}
       <TextCard text={"hello"} />
+      <ActionButton onClick={handleClick} />
+      <UserCard user={user} />
+      <TodoList todos={todos} />
+      <StatusBadge isActive={true} />
       <NumberCard count={12} />
     </>
   );
