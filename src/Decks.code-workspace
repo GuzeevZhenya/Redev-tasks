@@ -1,0 +1,199 @@
+{
+	"folders": [
+		{
+			"name": "Decks",
+			"path": "../../../IT-Incubator/Decks"
+		},
+		{
+			"name": "Todo-List-IT-Incubator",
+			"path": "../../../IT-Incubator/Todo-List-IT-Incubator"
+		},
+		{
+			"name": "react-cinema",
+			"path": "../../../React/react-cinema"
+		},
+		{
+			"name": "fortnite-shop",
+			"path": "../../../React/fortnite-shop"
+		},
+		{
+			"name": "TS",
+			"path": "../../../TS"
+		},
+		{
+			"name": "TodoList-Dimich",
+			"path": "../../../IT-Incubator/TodoList-Dimich"
+		},
+		{
+			"name": "recipes",
+			"path": "../../../React/recipes"
+		},
+		{
+			"name": "Decks 2.0",
+			"path": "../../../React/Decks 2.0"
+		},
+		{
+			"name": "React-Redux-Udemy",
+			"path": "../../../React/React-Redux-Udemy"
+		},
+		{
+			"name": "dashboard-app-starter",
+			"path": "../../../React/dashboard-app-starter"
+		},
+		{
+			"name": "countries-flags-api",
+			"path": "../../../React/countries-flags-api"
+		},
+		{
+			"name": "it-incubator-video",
+			"path": "../../../IT-Incubator/it-incubator-video"
+		},
+		{
+			"name": "training-project",
+			"path": "../../../React/training-project"
+		},
+		{
+			"name": "09-create-asynkthunk-basics",
+			"path": "../../../React/Новая папка/09-create-asynkthunk-basics"
+		},
+		{
+			"name": "09-error-handling",
+			"path": "C:/Users/Guzeev/OneDrive/Рабочий стол/Документы/09-error-handling"
+		},
+		{
+			"name": "proj2-with-neighbors 2",
+			"path": "../../../Флешка/proj2-with-neighbors 2"
+		},
+		{
+			"name": "udemy-project-nepomniati",
+			"path": "../../../React/udemy-project-nepomniati"
+		},
+		{
+			"name": "Incubator-todo",
+			"path": "../../../IT-Incubator/Incubator-todo"
+		},
+		{
+			"name": "working-with-user-input-starter",
+			"path": "../../../React/working-with-user-input-starter"
+		},
+		{
+			"name": "fast-company-before-hw",
+			"path": "../../../React/fast-company-before-hw"
+		},
+		{
+			"name": "frontendreact",
+			"path": "../../../React/frontendreact"
+		},
+		{
+			"name": "next-pizza",
+			"path": "../../../React/NEXT-PIZZA/next-pizza"
+		},
+		{
+			"name": "it-incubator-todolist-ts-18",
+			"path": "../../../Guzeev/IT-INCUBATOR/TODO/it-incubator-todolist-ts-18"
+		},
+		{
+			"name": "toolkit",
+			"path": "../../../React/toolkit"
+		},
+		{
+			"name": "store",
+			"path": "../../../React/store"
+		},
+		{
+			"name": "firstproject",
+			"path": "../../../React/Mini-Projects/firstproject"
+		},
+		{
+			"name": "17-todolist",
+			"path": "../../../IT-Incubator/17-todolist (1)/17-todolist"
+		},
+		{
+			"name": "admin1",
+			"path": "../../admin1"
+		},
+		{
+			"name": "redux_toolkit_rtk_query",
+			"path": "../../../React/redux_toolkit_rtk_query"
+		},
+		{
+			"name": "shpora",
+			"path": "../../shpora"
+		},
+		{
+			"name": "shpora-server",
+			"path": "../../shpora-server"
+		},
+		{
+			"name": "e-shop",
+			"path": "../../../React/e-shop"
+		},
+		{
+			"name": "ui-kit",
+			"path": "../../../Стажировка/1/ui-kit"
+		},
+		{
+			"name": "itcamasutr-2.0",
+			"path": "../../../IT-Incubator/itcamasutr-2.0"
+		},
+		{
+			"name": "my-app",
+			"path": "../../../React/1/my-app"
+		},
+		{
+			"name": "Новая папка (2)",
+			"path": "C:/Users/Guzeev/OneDrive/Рабочий стол/Новая папка (2)"
+		},
+		{
+			"name": "Redev",
+			"path": "C:/Users/Guzeev/OneDrive/Рабочий стол/Redev"
+		},
+		{
+			"name": "musicfun-react-all-stacks",
+			"path": "../../../MusicFun/musicfun-react-all-stacks"
+		},
+		{
+			"name": "tmdb-kinopoisk",
+			"path": "../../../IT-Incubator/!!!PROJECT/tmdb-kinopoisk"
+		},
+		{
+			"path": "../../../React/react-ecom"
+		},
+		{
+			"path": "../../../React/1/react-project"
+		},
+		{
+			"path": "../../../Guzeev/Программирование/!!!!Пройти/Проекты/my-rtk-app"
+		},
+		{
+			"path": "../../../Стажировка/купукп/Ict"
+		},
+		{
+			"path": "../../../Стажировка/Мой Гит"
+		},
+		{
+			"path": "../../../Сайты/Resume"
+		},
+		{
+			"path": "../../../Сайты/Интернет магазин"
+		},
+		{
+			"path": "../../../Сайты/NextJs"
+		},
+		{
+			"path": "C:/Users/Guzeev/OneDrive/Рабочий стол/Claude-Code"
+		},
+		{
+			"path": "../../../!!!!!!!МОЕ/Book_Training_Bot"
+		},
+		{
+			"path": "../../../React/Red-Group React"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "e-shop\\node_modules\\typescript\\lib"
+	}
+}
