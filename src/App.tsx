@@ -1,31 +1,51 @@
-import { ActionButton } from "@/components/ActionButton";
-import { NumberCard } from "@/components/NumberCard";
-import { StatusBadge } from "@/components/StatusBadge";
-import { TextCard } from "@/components/TextCard";
-import TodoList from "@/components/TodoList";
-import UserCard from "@/components/UserCard";
+// 1. Создай компонент с кнопкой, которая увеличивает значение state на 1 при каждом нажатии.
+
+import { useState } from "react";
+
+// 2. Создай компонент, который скрывает или показывает текст при помощи кнопки.
+
+// 3. Создай компонент с полем ввода, которое обновляет значение state при каждом вводе. Выведи значение state под полем ввода.
+
+// 4. Создай компонент с кнопкой, которая меняет цвет текста при каждом нажатии.
 
 function App() {
-  const handleClick = () => {
-    alert("Кнопка нажата!");
+  const [count, setCount] = useState(0);
+  const [isVisible, setVisible] = useState(false);
+  const [text, setText] = useState("");
+  const [color, setColor] = useState("#3498db");
+
+  const handleIncrement = () => {
+    setCount((count) => count + 1);
   };
 
-  const user = {
-    name: "Pavel",
-    age: 27,
-    city: "Minsk",
+  const handleClickVisiable = () => {
+    setVisible((state) => !state);
   };
 
-  const todos = ["Learn React", "Build a project", "Get a job"];
+  const getRandomColor = () => {
+    const h = Math.floor(Math.random() * 360);
+    return `hsl(${h}, 70%, 50%)`;
+  };
+
+  const handleClickChangeColor = () => {
+    setColor(getRandomColor());
+  };
 
   return (
     <>
-      <TextCard text={"hello"} />
-      <ActionButton onClick={handleClick} />
-      <UserCard user={user} />
-      <TodoList todos={todos} />
-      <StatusBadge isActive={true} />
-      <NumberCard count={12} />
+      <button onClick={handleIncrement}>+</button>
+      {count}
+      <br />
+      <button onClick={handleClickVisiable}>Click</button>
+      {isVisible && <span>Текст есть</span>}
+      <br />
+
+      <input value={text} onChange={(e) => setText(e.target.value)} />
+      {text}
+      <br />
+
+      <button onClick={handleClickChangeColor}>Сменить цвет</button>
+      <p style={{ color }}>Текущий цвет: {color}</p>
     </>
   );
 }
